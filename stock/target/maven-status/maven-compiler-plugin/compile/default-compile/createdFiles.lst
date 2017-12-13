@@ -1,0 +1,4 @@
+com\example\demo\StockApplication.class
+com\example\demo\StockController.class
+com\example\demo\StockRepository.class
+com\example\demo\Stock.class
