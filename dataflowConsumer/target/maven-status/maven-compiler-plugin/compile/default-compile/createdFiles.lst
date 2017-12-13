@@ -1,0 +1,3 @@
+com\example\dataflowConsumer\DataflowConsumerApplication.class
+com\example\dataflowConsumer\ConsumerInterface.class
+com\example\dataflowConsumer\ConsumerController.class

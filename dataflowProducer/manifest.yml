@@ -1,0 +1,9 @@
+---
+applications:
+- name: n-producer
+  memory: 1G
+  host: n-producer
+  path: target/dataflowProducer-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  services:
+  - myRabbit

@@ -1,0 +1,9 @@
+---
+applications:
+- name: n-consumer
+  memory: 1G
+  host: n-consumer
+  path: target/dataflowConsumer-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  services:
+  - myRabbit
