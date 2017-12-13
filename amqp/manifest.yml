@@ -1,0 +1,9 @@
+---
+applications:
+- name: n-amqp
+  memory: 1G
+  host: n-amqp
+  path: target/amqp-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  services:
+  - myRabbit
